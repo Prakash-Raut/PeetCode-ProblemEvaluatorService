@@ -34,6 +34,7 @@
 		"typescript": "^5.5.2"
 	},
 	"dependencies": {
+		"@bull-board/express": "^5.20.5",
 		"bullmq": "^5.8.2",
 		"concurrently": "^8.2.2",
 		"dotenv": "^16.4.5",
