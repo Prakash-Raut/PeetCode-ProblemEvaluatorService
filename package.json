@@ -1,0 +1,25 @@
+{
+  "name": "problemevaluatorservice",
+  "version": "1.0.0",
+  "description": "evaluator service to evaluate the problem before submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prakash-Raut/PeetCode-ProblemEvaluatorService.git"
+  },
+  "keywords": [
+    "problem",
+    "evaluator",
+    "microservice",
+    "peetcode"
+  ],
+  "author": "Prakash Raut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prakash-Raut/PeetCode-ProblemEvaluatorService/issues"
+  },
+  "homepage": "https://github.com/Prakash-Raut/PeetCode-ProblemEvaluatorService#readme"
+}
