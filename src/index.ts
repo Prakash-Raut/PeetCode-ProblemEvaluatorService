@@ -1,3 +1,4 @@
+import bodyParser from "body-parser";
 import express, { type Express } from "express";
 import bullBoardAdapter from "./config/bullBoardConfig";
 import { PORT } from "./config/serverConfig";
@@ -6,6 +7,10 @@ import apiRouter from "./routes";
 import SampleWorker from "./workers/sampleWorker";
 
 const app: Express = express();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
 
 app.use("/api", apiRouter);
 
